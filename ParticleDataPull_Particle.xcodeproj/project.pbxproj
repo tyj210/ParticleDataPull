@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676A6C6251512AAF69F9D544 /* Pods_ParticleDataPull_Particle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A45C35E5D2BDA1B8FD1571E /* Pods_ParticleDataPull_Particle.framework */; };
+		84351C1620080B3900B2896D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84351C1020080B3900B2896D /* ViewController.swift */; };
+		84351C1820080B3900B2896D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84351C1220080B3900B2896D /* AppDelegate.swift */; };
+		84351C1A20080B3900B2896D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84351C1420080B3900B2896D /* LaunchScreen.storyboard */; };
+		84351C1B20080B3900B2896D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84351C1520080B3900B2896D /* Main.storyboard */; };
+		846C6E8820125FCB00FD86B9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C6E8720125FCB00FD86B9 /* ViewController2.swift */; };
+		848457E82007CBEA00EB9689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848457E72007CBEA00EB9689 /* Assets.xcassets */; };
+		848457F62007CBEB00EB9689 /* ParticleDataPull_ParticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848457F52007CBEB00EB9689 /* ParticleDataPull_ParticleTests.swift */; };
+		848458012007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848458002007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848457F22007CBEB00EB9689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848457D52007CBEA00EB9689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848457DC2007CBEA00EB9689;
+			remoteInfo = ParticleDataPull_Particle;
+		};
+		848457FD2007CBEB00EB9689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848457D52007CBEA00EB9689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848457DC2007CBEA00EB9689;
+			remoteInfo = ParticleDataPull_Particle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066AF64488E5E44BB69A4380 /* Pods-ParticleDataPull_Particle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParticleDataPull_Particle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle.debug.xcconfig"; sourceTree = "<group>"; };
+		31ABBD1689D5ADFC10880965 /* libPods-ParticleDataPull_ParticleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParticleDataPull_ParticleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A45C35E5D2BDA1B8FD1571E /* Pods_ParticleDataPull_Particle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParticleDataPull_Particle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7990A42128A3F5848E43A7C1 /* libPods-ParticleDataPull_ParticleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParticleDataPull_ParticleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1D5C697B706EF14D2E85CA /* Pods-ParticleDataPull_Particle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParticleDataPull_Particle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle.release.xcconfig"; sourceTree = "<group>"; };
+		84351C1020080B3900B2896D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84351C1220080B3900B2896D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84351C1420080B3900B2896D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84351C1520080B3900B2896D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84351C1E20080C7400B2896D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		846C6E8720125FCB00FD86B9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		848457DD2007CBEA00EB9689 /* ParticleDataPull_Particle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleDataPull_Particle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848457E72007CBEA00EB9689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848457EC2007CBEB00EB9689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848457F12007CBEB00EB9689 /* ParticleDataPull_ParticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleDataPull_ParticleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848457F52007CBEB00EB9689 /* ParticleDataPull_ParticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleDataPull_ParticleTests.swift; sourceTree = "<group>"; };
+		848457F72007CBEB00EB9689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848457FC2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleDataPull_ParticleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848458002007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleDataPull_ParticleUITests.swift; sourceTree = "<group>"; };
+		848458022007CBEB00EB9689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848457DA2007CBEA00EB9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A6C6251512AAF69F9D544 /* Pods_ParticleDataPull_Particle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457EE2007CBEB00EB9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457F92007CBEB00EB9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0533279C96D803FB3079FD8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066AF64488E5E44BB69A4380 /* Pods-ParticleDataPull_Particle.debug.xcconfig */,
+				7A1D5C697B706EF14D2E85CA /* Pods-ParticleDataPull_Particle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		848457D42007CBEA00EB9689 = {
+			isa = PBXGroup;
+			children = (
+				848457DF2007CBEA00EB9689 /* ParticleDataPull_Particle */,
+				848457F42007CBEB00EB9689 /* ParticleDataPull_ParticleTests */,
+				848457FF2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests */,
+				848457DE2007CBEA00EB9689 /* Products */,
+				0533279C96D803FB3079FD8C /* Pods */,
+				B5D82794659D21D92A425826 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848457DE2007CBEA00EB9689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848457DD2007CBEA00EB9689 /* ParticleDataPull_Particle.app */,
+				848457F12007CBEB00EB9689 /* ParticleDataPull_ParticleTests.xctest */,
+				848457FC2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848457DF2007CBEA00EB9689 /* ParticleDataPull_Particle */ = {
+			isa = PBXGroup;
+			children = (
+				84351C1220080B3900B2896D /* AppDelegate.swift */,
+				84351C1420080B3900B2896D /* LaunchScreen.storyboard */,
+				84351C1520080B3900B2896D /* Main.storyboard */,
+				84351C1020080B3900B2896D /* ViewController.swift */,
+				846C6E8720125FCB00FD86B9 /* ViewController2.swift */,
+				84351C1E20080C7400B2896D /* Bridging-Header.h */,
+				848457E72007CBEA00EB9689 /* Assets.xcassets */,
+				848457EC2007CBEB00EB9689 /* Info.plist */,
+			);
+			path = ParticleDataPull_Particle;
+			sourceTree = "<group>";
+		};
+		848457F42007CBEB00EB9689 /* ParticleDataPull_ParticleTests */ = {
+			isa = PBXGroup;
+			children = (
+				848457F52007CBEB00EB9689 /* ParticleDataPull_ParticleTests.swift */,
+				848457F72007CBEB00EB9689 /* Info.plist */,
+			);
+			path = ParticleDataPull_ParticleTests;
+			sourceTree = "<group>";
+		};
+		848457FF2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848458002007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.swift */,
+				848458022007CBEB00EB9689 /* Info.plist */,
+			);
+			path = ParticleDataPull_ParticleUITests;
+			sourceTree = "<group>";
+		};
+		B5D82794659D21D92A425826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7990A42128A3F5848E43A7C1 /* libPods-ParticleDataPull_ParticleTests.a */,
+				31ABBD1689D5ADFC10880965 /* libPods-ParticleDataPull_ParticleUITests.a */,
+				5A45C35E5D2BDA1B8FD1571E /* Pods_ParticleDataPull_Particle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848457DC2007CBEA00EB9689 /* ParticleDataPull_Particle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848458052007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_Particle" */;
+			buildPhases = (
+				6FFB78E078D86126022AA75A /* [CP] Check Pods Manifest.lock */,
+				848457D92007CBEA00EB9689 /* Sources */,
+				848457DA2007CBEA00EB9689 /* Frameworks */,
+				848457DB2007CBEA00EB9689 /* Resources */,
+				79FC55858494FC5A15A03104 /* [CP] Embed Pods Frameworks */,
+				D43BAE5B0463224CD56A2E93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleDataPull_Particle;
+			productName = ParticleDataPull_Particle;
+			productReference = 848457DD2007CBEA00EB9689 /* ParticleDataPull_Particle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848457F02007CBEB00EB9689 /* ParticleDataPull_ParticleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848458082007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_ParticleTests" */;
+			buildPhases = (
+				848457ED2007CBEB00EB9689 /* Sources */,
+				848457EE2007CBEB00EB9689 /* Frameworks */,
+				848457EF2007CBEB00EB9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848457F32007CBEB00EB9689 /* PBXTargetDependency */,
+			);
+			name = ParticleDataPull_ParticleTests;
+			productName = ParticleDataPull_ParticleTests;
+			productReference = 848457F12007CBEB00EB9689 /* ParticleDataPull_ParticleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848457FB2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484580B2007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_ParticleUITests" */;
+			buildPhases = (
+				848457F82007CBEB00EB9689 /* Sources */,
+				848457F92007CBEB00EB9689 /* Frameworks */,
+				848457FA2007CBEB00EB9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848457FE2007CBEB00EB9689 /* PBXTargetDependency */,
+			);
+			name = ParticleDataPull_ParticleUITests;
+			productName = ParticleDataPull_ParticleUITests;
+			productReference = 848457FC2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848457D52007CBEA00EB9689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tychicus C Jones";
+				TargetAttributes = {
+					848457DC2007CBEA00EB9689 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					848457F02007CBEB00EB9689 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848457DC2007CBEA00EB9689;
+					};
+					848457FB2007CBEB00EB9689 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848457DC2007CBEA00EB9689;
+					};
+				};
+			};
+			buildConfigurationList = 848457D82007CBEA00EB9689 /* Build configuration list for PBXProject "ParticleDataPull_Particle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848457D42007CBEA00EB9689;
+			productRefGroup = 848457DE2007CBEA00EB9689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848457DC2007CBEA00EB9689 /* ParticleDataPull_Particle */,
+				848457F02007CBEB00EB9689 /* ParticleDataPull_ParticleTests */,
+				848457FB2007CBEB00EB9689 /* ParticleDataPull_ParticleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848457DB2007CBEA00EB9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84351C1B20080B3900B2896D /* Main.storyboard in Resources */,
+				848457E82007CBEA00EB9689 /* Assets.xcassets in Resources */,
+				84351C1A20080B3900B2896D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457EF2007CBEB00EB9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457FA2007CBEB00EB9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FFB78E078D86126022AA75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParticleDataPull_Particle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FC55858494FC5A15A03104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Particle-SDK/Particle_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/ParticleSetup/ParticleSetup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePasswordExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Particle_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParticleSetup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43BAE5B0463224CD56A2E93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParticleDataPull_Particle/Pods-ParticleDataPull_Particle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848457D92007CBEA00EB9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84351C1820080B3900B2896D /* AppDelegate.swift in Sources */,
+				84351C1620080B3900B2896D /* ViewController.swift in Sources */,
+				846C6E8820125FCB00FD86B9 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457ED2007CBEB00EB9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848457F62007CBEB00EB9689 /* ParticleDataPull_ParticleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848457F82007CBEB00EB9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848458012007CBEB00EB9689 /* ParticleDataPull_ParticleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848457F32007CBEB00EB9689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848457DC2007CBEA00EB9689 /* ParticleDataPull_Particle */;
+			targetProxy = 848457F22007CBEB00EB9689 /* PBXContainerItemProxy */;
+		};
+		848457FE2007CBEB00EB9689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848457DC2007CBEA00EB9689 /* ParticleDataPull_Particle */;
+			targetProxy = 848457FD2007CBEB00EB9689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		848458032007CBEB00EB9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleDataPull_Particle/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		848458042007CBEB00EB9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleDataPull_Particle/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848458062007CBEB00EB9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066AF64488E5E44BB69A4380 /* Pods-ParticleDataPull_Particle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_Particle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-Particle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848458072007CBEB00EB9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1D5C697B706EF14D2E85CA /* Pods-ParticleDataPull_Particle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_Particle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-Particle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		848458092007CBEB00EB9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_ParticleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-ParticleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleDataPull_Particle.app/ParticleDataPull_Particle";
+			};
+			name = Debug;
+		};
+		8484580A2007CBEB00EB9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_ParticleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-ParticleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleDataPull_Particle.app/ParticleDataPull_Particle";
+			};
+			name = Release;
+		};
+		8484580C2007CBEB00EB9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_ParticleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-ParticleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParticleDataPull_Particle;
+			};
+			name = Debug;
+		};
+		8484580D2007CBEB00EB9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGKB492MNH;
+				INFOPLIST_FILE = ParticleDataPull_ParticleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tychicus.ParticleDataPull-ParticleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParticleDataPull_Particle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848457D82007CBEA00EB9689 /* Build configuration list for PBXProject "ParticleDataPull_Particle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848458032007CBEB00EB9689 /* Debug */,
+				848458042007CBEB00EB9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848458052007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_Particle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848458062007CBEB00EB9689 /* Debug */,
+				848458072007CBEB00EB9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848458082007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_ParticleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848458092007CBEB00EB9689 /* Debug */,
+				8484580A2007CBEB00EB9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484580B2007CBEB00EB9689 /* Build configuration list for PBXNativeTarget "ParticleDataPull_ParticleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484580C2007CBEB00EB9689 /* Debug */,
+				8484580D2007CBEB00EB9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848457D52007CBEA00EB9689 /* Project object */;
+}
